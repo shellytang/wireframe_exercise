@@ -1,0 +1,64 @@
+* {
+  outline: 1px dotted orange;
+}
+
+/*<nav class="inner">
+
+  /*{
+  height: 320px;
+  overflow: auto;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+ }
+
+{
+  clear: both;
+  background: #444;
+  height: 150px;
+}
+
+{
+  display: inline-block;
+  margin-top: 40px;
+  margin-right: 75px;
+}
+
+{
+  float: left;
+  width: 50%;
+}
+
+{
+  text-decoration: none;
+  color: #888;
+}*/
+footer {
+  width: 100%;
+  outline: 1px solid red;
+}
+main, .inner {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inner ul li {
+  display: inline;
+}
+
+.inner ul {
+  display: inline-block;
+}
+
+main img {
+  margin: 30px auto 30px auto;
+}
+
+.always_three {
+  outline: 1px solid green;
+}
+.always_three li {
+  display: inline-block;
+  outline: 1px solid red;
+}
