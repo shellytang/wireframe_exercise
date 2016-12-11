@@ -1,23 +1,7 @@
 * {
   outline: 1px dotted orange;
 }
-
-/*<nav class="inner">
-
   /*{
-  height: 320px;
-  overflow: auto;
-  font-size: 18px;
-  font-style: italic;
-  line-height: 24px;
- }
-
-{
-  clear: both;
-  background: #444;
-  height: 150px;
-}
-
 {
   display: inline-block;
   margin-top: 40px;
@@ -25,40 +9,64 @@
 }
 
 {
-  float: left;
-  width: 50%;
-}
-
-{
   text-decoration: none;
   color: #888;
 }*/
-footer {
-  width: 100%;
-  outline: 1px solid red;
-}
-main, .inner {
+
+main, .inner, .always_three {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
-
-.inner ul li {
-  display: inline;
+.inner li {
+  display: inline-block;
+  /*margin-top: 40px;
+  margin-right: 75px;*/
 }
-
 .inner ul {
   display: inline-block;
 }
-
-main img {
+.hero {
   margin: 30px auto 30px auto;
 }
 
 .always_three {
-  outline: 1px solid green;
+  outline: 3px solid green;
 }
-.always_three li {
-  display: inline-block;
-  outline: 1px solid red;
+
+
+.featured_section {
+  outline: 3px solid blue;
+  margin-top: 30px;
+  height: 400px;
 }
+
+.featured_section img {
+  float: left;
+  width: 50%;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.right {
+  height: 350px;
+  overflow: auto;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+ }
+
+
+ footer {
+   clear: both;
+   background: #444;
+   height: 150px;
+ }
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+}
+ button:hover{
+   color: red;
+ }
