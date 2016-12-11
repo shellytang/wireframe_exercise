@@ -18,6 +18,7 @@ li {
   margin-top: 40px;
   margin-right: 75px;
   text-decoration: none;
+  font-family: sans-serif;
   color: #888;
 }
 .hero {
@@ -49,11 +50,13 @@ li {
   overflow: auto;
   font-size: 18px;
   font-style: italic;
+  font-family: sans-serif;
   line-height: 24px;
  }
 .right h2 {
-  font-size: 18px;
-  padding: 10px;
+  font-size: 24px;
+  padding: 5px;
+  font-family: sans-serif;
 }
  footer {
    clear: both;
@@ -68,6 +71,7 @@ button {
   transition:350ms;
   color: #888;
   font-size: 12px;
+  font-family: sans-serif;
 }
  button:hover {
    background: #444;
