@@ -24,7 +24,7 @@ li {
   margin: 30px auto 30px auto;
 }
 .always_three {
-  height:375px;
+  height: 375px;
 }
 .always_three img {
   width: 300px;
@@ -44,25 +44,30 @@ li {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.right {
+.right p {
   height: 320px;
   overflow: auto;
   font-size: 18px;
   font-style: italic;
   line-height: 24px;
  }
+.right h2 {
+  font-size: 18px;
+  padding: 10px;
+}
  footer {
    clear: both;
    background: #444;
    height: 150px;
  }
 button {
-  margin-top: 40px;
+  margin-top: 5px;
   padding: 10px;
   width: 20%;
   border-radius: 3px;
   transition:350ms;
   color: #888;
+  font-size: 12px;
 }
  button:hover {
    background: #444;
